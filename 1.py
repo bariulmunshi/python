@@ -34,8 +34,19 @@ else:
     print("Factorial =", result)
 '''
 #  3. ফাংশন ব্যবহার করে ত্রিভুজ ক্ষেত্রের ক্ষেত্রফল নির্ণয়ের প্রোগ্রাম লেখো।
-
+'''
 def triangle_area(b, h):
     return 0.5 * b * h
 
 print(triangle_area(10, 5))
+'''
+# 4. ফাংশন ব্যবহার করে ১ থেকে ১০০ পর্যন্ত বিজোড় সংখ্যা গুলোর যোগফল নির্ণয়ের একটি প্রোগ্রাম তৈরি কর।
+'''def odd_sum():
+    total = 0
+    for i in range(1, 101):
+        if i % 2 != 0:
+            total += i
+    return total
+
+print(odd_sum())
+'''
