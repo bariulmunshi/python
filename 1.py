@@ -33,3 +33,9 @@ else:
     result = factorial(num)
     print("Factorial =", result)
 '''
+#  3. ফাংশন ব্যবহার করে ত্রিভুজ ক্ষেত্রের ক্ষেত্রফল নির্ণয়ের প্রোগ্রাম লেখো।
+
+def triangle_area(b, h):
+    return 0.5 * b * h
+
+print(triangle_area(10, 5))
