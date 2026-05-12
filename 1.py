@@ -19,7 +19,7 @@ print(sum_of_numbers(numbers_list))
 def factorial(number):
     fact = 1
 
-    for i in range(1, number + 1):
+    for i in range(1, number + 1): #১ থেকে number পর্যন্ত সংখ্যা তৈরি করো
         fact = fact * i
 
     return fact
