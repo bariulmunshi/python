@@ -11,7 +11,7 @@ print(sum_of_numbers(numbers_list))
 
 '''
 # code explaination: 
-# Step-1: List তৈরি হচ্ছে step-2: Function তৈরি হচ্ছে step-3: Function Call হচ্ছে
+# Step-1: List তৈরি হচ্ছে step-2: Function তৈরি হচ্ছে step-3: Function Call হচ্ছে step-4: for loop শুরু step-5: for loop শুরু:
 #print(sum([1, 2, 3, 4, 5])) 
 # 2. ফাংশন ব্যবহার  করে ধনাত্মক  পূর্ণ সংখ্যার Factorial এর মান নির্ণয় করার program লেখ। 
 # ফাংশন ব্যবহার করে ধনাত্মক পূর্ণ সংখ্যার Factorial নির্ণয়
