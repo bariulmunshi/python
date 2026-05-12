@@ -15,7 +15,7 @@ print(sum_of_numbers(numbers_list))
 #print(sum([1, 2, 3, 4, 5])) 
 # 2. ফাংশন ব্যবহার  করে ধনাত্মক  পূর্ণ সংখ্যার Factorial এর মান নির্ণয় করার program লেখ। 
 # ফাংশন ব্যবহার করে ধনাত্মক পূর্ণ সংখ্যার Factorial নির্ণয়
-
+'''
 def factorial(number):
     fact = 1
 
@@ -32,3 +32,4 @@ if num < 0:
 else:
     result = factorial(num)
     print("Factorial =", result)
+'''
